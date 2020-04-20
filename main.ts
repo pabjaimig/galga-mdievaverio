@@ -311,7 +311,7 @@ f e f e 4 4 e b f 4 4 e e f . . . . . . . . . .
 . . . . . . . . . . . . . . . . . . . . . . . . 
 `, SpriteKind.Player)
 yo.setFlag(SpriteFlag.StayInScreen, true)
-info.setLife(5)
+info.setLife(3)
 controller.moveSprite(yo, 200, 200)
 game.onUpdateInterval(500, function () {
     espirutu = sprites.create(img`
